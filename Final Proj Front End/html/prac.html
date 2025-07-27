@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/cam-perm.js" defer></script>
+    </head>
+    <body>
+
+        <header class="header">
+            <h1>Just Photobooth my location sir</h1>
+            <p>Click the button below to take a photo using your camera.</p>
+        </header>
+
+        <div class="container">
+            <div class="cam-container">
+                <video id="video" autoplay> </video>
+                <canvas id="camframe"></canvas>
+                <button id="take_pic">
+                    Camera
+                </button>
+            </div>
+
+            <div class="pic-container">
+                <div class="counter-container">
+                    <p class="counter"></p>
+                </div>
+
+            </div>
+               <div class="button-container">
+                <button type="button" id="download">
+                    Download
+                </button>
+                <button id="reset">
+                    Reset
+                </button>
+            </div>
+        </div>
+
+    <footer>
+        <div class="credit-container">
+             
+        </div>
+    </footer>
+    </body>
+</html>

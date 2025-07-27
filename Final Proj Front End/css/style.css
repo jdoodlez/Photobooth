@@ -1,0 +1,55 @@
+.container{
+    position: relative;
+    max-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 10px;
+}
+
+
+.cam-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.cam-pic{
+    max-width: fit-content;
+    max-height: max-content;
+}
+
+#video {
+    max-width: 600px;
+    max-height: 500px;
+    border: solid 2px black;
+    border-color: black;
+}
+
+#take_pic {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    max-width: 150px;
+}
+
+.pic-container{
+    display: flex;
+    padding: 15px;
+    gap: 5px;
+    flex-direction: column;
+    width: min-content;
+}
+
+#camframe {
+    display: none;
+}
+
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
