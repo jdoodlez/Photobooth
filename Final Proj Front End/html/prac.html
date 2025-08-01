@@ -4,16 +4,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="/css/style.css">
-        <script src="/js/cam-perm.js" defer></script>
+        <link rel="stylesheet" href="/Final Proj Front End/css/style.css">
     </head>
     <body>
-
         <header class="header">
-            <h1>Just Photobooth my location sir</h1>
-            <p>Click the button below to take a photo using your camera.</p>
+            <nav class="nav-bar"> 
+                <div class="nav-content">
+                    <h2 class="web-title">JD's Photobooth</h2>
+                    <h3>Home</h3>
+                    <h3>About</h3>
+                    <h3>Photobooth</h3>
+                </div>
+            </nav>
         </header>
 
+        <main>
         <div class="container">
             <div class="cam-container">
                 <video id="video" autoplay> </video>
@@ -33,16 +38,21 @@
                 <button type="button" id="download">
                     Download
                 </button>
-                <button id="reset">
+                <button type="button" id="reset">
                     Reset
                 </button>
             </div>
         </div>
+        </main>
 
-    <footer>
-        <div class="credit-container">
-             
-        </div>
-    </footer>
+        <footer>
+            <div class="footer-container">
+                <p>Made by: </p>
+            </div>
+        </footer>
+        
+    
+    <script src="/Final Proj Front End/js/pb-cam.js"></script>
+
     </body>
 </html>
